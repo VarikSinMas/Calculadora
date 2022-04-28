@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modelo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body style="background-color: #f6ff00;">
+  <div class="bg">
+    <div class="text-container">
+      <div class="calc">Calculadora</div>
+      <div class="tema">
+        <div>ESTILOS</div>
+        <div class="padre">
+          <div class="hijo"></div>
+        </div>
+        <span>
+          <button class="btn1">1</button>
+          <button class="btn2">2</button>
+          <button class="btn3">3</button>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="container-display">
+    <input type="text" class="display">
+  </div>
+  <div class="container-table">
+    <section class="container2">
+      <table class="calculadora" border="0" cellpadding="8">
+        <tr>
+          <td><button class="btn btn-num btn22">7</button></td>
+          <td><button class="btn btn-num btn22">8</button></td>
+          <td><button class="btn btn-num btn22">9</button></td>
+          <td><button class="btn  btn22" style="background-color: #647299; color: white;" id="Del">DEL</button></td>
+        </tr>
+        <tr>
+          <td><button class="btn btn-num btn22">4</button></td>
+          <td><button class="btn btn-num btn22">5</button></td>
+          <td><button class="btn btn-num btn22">6</button></td>
+          <td><button class="btn btn-num btn22 btn-soma">+</button></td>
+        </tr>
+        <tr>
+          <td><button class="btn btn-num btn22">1</button></td>
+          <td><button class="btn btn-num btn22">2</button></td>
+          <td><button class="btn btn-num btn22">3</button></td>
+          <td><button class="btn btn-num btn22 btn-sub">-</button></td>
+        </tr>
+        <tr>
+          <td><button class="btn btn-num btn22">.</button></td>
+          <td><button class="btn btn-num btn22">0</button></td>
+          <td><button class="btn btn-num btn22 btn-div">/</button></td>
+          <td><button class="btn btn22 btn-multi">x</button></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button class="btn btn-num btn22" id="Reset"
+              style="background-color: #647299; color: white;">RESET</button></td>
+          <td colspan="2"><button class="btn btn22" id="equal"
+              style="background-color: #d90000; color: white;">=</button>
+          </td>
+        </tr>
+      </table>
+    </section>
+  </div>
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
